@@ -1,6 +1,6 @@
-#### End-to-End Election 2024 Result Analysis | Data Modeling → Insights → Storytelling & Power BI Dashboard Project ####
+# End-to-End Election 2024 Result Analysis | Data Modeling → Insights → Storytelling & Power BI Dashboard Project 
 
-**Data Model – Foundation of the Analysis**
+# Data Model – Foundation of the Analysis
 
 Objective: Build a scalable, clean, and filter-efficient data model to support cross-level election analysis.
 
@@ -27,7 +27,7 @@ Objective: Build a scalable, clean, and filter-efficient data model to support c
 This robust model ensures high performance and accurate aggregation across all dashboards
 <img width="1087" height="575" alt="0 data model" src="https://github.com/user-attachments/assets/9f756231-ea34-4a9d-a568-dfa866c7c556" />
 
-**Landing Page – Navigation & Story Entry Point**
+# Landing Page – Navigation & Story Entry Point
 
 **Objective: Provide a clear, intuitive entry point for business users and stakeholders**
 
@@ -58,7 +58,7 @@ o	Scope of analysis
 Designed for executive users to immediately understand “where to go” and “what they’ll get.”
 <img width="1064" height="547" alt="1 landing page" src="https://github.com/user-attachments/assets/15216888-268a-4b2f-a8c3-1136b02341fa" />
 
-**Overview Analysis – National Election Snapshot**
+# Overview Analysis – National Election Snapshot
 
 **Objective: Present a macro-level summary of the 2024 election results.**
 
@@ -85,7 +85,7 @@ o	Others: 17 seats (3%)
 This dashboard answers the most critical question: “Who formed the government and why?”
 <img width="1518" height="847" alt="2 Overview Analysis" src="https://github.com/user-attachments/assets/4805f415-18d9-4244-a6ae-58bb08598ce3" />
 
-**State Demographic Analysis – Geographic & Spatial Insights**
+# State Demographic Analysis – Geographic & Spatial Insights
 
 **Objective: Analyze how alliances performed across India geographically.**
 
@@ -116,7 +116,7 @@ o	Size reflects vote margin
 Transforms raw results into geographic election intelligence.
 <img width="1069" height="540" alt="3 State demographic analysis" src="https://github.com/user-attachments/assets/05c69ffe-e43b-4ec5-9e85-8f64ff55d43c" />
 
-**State Analysis – Deep Dive into Individual States**
+# State Analysis – Deep Dive into Individual States
 
 **Objective: Enable state-level performance comparison across alliances and parties.**
 
@@ -140,7 +140,7 @@ Example: Andhra Pradesh
  This dashboard explains “why a state voted the way it did.”
  <img width="1063" height="543" alt="4 State Analysis" src="https://github.com/user-attachments/assets/6045e642-80da-42a0-96f6-358b0ddc561e" />
 
-**Constituency Analysis – Micro-Level Election Outcomes**
+# Constituency Analysis – Micro-Level Election Outcomes
 
 **Objective: Provide constituency-level election intelligence.**
 
@@ -171,7 +171,7 @@ o	Runner-up: 44.95%
 This is where election results turn into tactical political insights.
 <img width="1045" height="544" alt="5 Constituency Analysis" src="https://github.com/user-attachments/assets/566b9f8f-2953-40c2-b8c6-01a464fbdf7a" />
 
-**Details Grid – Complete Election Record**
+# Details Grid – Complete Election Record
 
 **Objective: Provide a tabular, audit-ready view of all constituencies.**
 
@@ -200,7 +200,7 @@ Acts as the single source of truth for all election data.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+# DAX AND MEASURES
 ```
 % of INDIA Seats = DIVIDE([INDIA Seats], [Total Seats], 0)
 ```
